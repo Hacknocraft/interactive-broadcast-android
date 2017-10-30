@@ -1,4 +1,4 @@
-package com.tokbox.android.IBSample;
+package com.fancred.android.ibsample;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -12,6 +12,7 @@ import android.widget.GridView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.fancred.android.ibsample.events.EventAdapter;
 import com.tokbox.android.IB.CelebrityHostActivity;
 import com.tokbox.android.IB.FanActivity;
 import com.tokbox.android.IB.config.IBConfig;
@@ -21,7 +22,6 @@ import com.tokbox.android.IB.events.EventStatus;
 import com.tokbox.android.IB.events.EventUtils;
 import com.tokbox.android.IB.model.InstanceApp;
 import com.tokbox.android.IB.ws.WebServiceCoordinator;
-import com.tokbox.android.IBSample.events.EventAdapter;
 
 import org.json.JSONArray;
 import org.json.JSONException;

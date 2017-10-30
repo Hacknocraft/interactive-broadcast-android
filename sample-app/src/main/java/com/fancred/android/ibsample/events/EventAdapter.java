@@ -1,4 +1,4 @@
-package com.tokbox.android.IBSample.events;
+package com.fancred.android.ibsample.events;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.fancred.android.ibsample.R;
 import com.tokbox.android.IB.CelebrityHostActivity;
 import com.tokbox.android.IB.FanActivity;
 import com.tokbox.android.IB.config.IBConfig;
@@ -20,7 +21,6 @@ import com.tokbox.android.IB.events.EventRole;
 import com.tokbox.android.IB.events.EventStatus;
 import com.tokbox.android.IB.events.EventUtils;
 import com.tokbox.android.IB.events.EventProperties;
-import com.tokbox.android.IBSample.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;

@@ -1,4 +1,4 @@
-package com.tokbox.android.IBSample;
+package com.fancred.android.ibsample;
 
 import android.Manifest;
 import android.content.Intent;
@@ -38,10 +38,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
         //Replace with the admin ID hashed
-        IBConfig.ADMIN_ID = "fBLBS9NPHYUitE3KtVghn4yI9ke2";
+        IBConfig.ADMIN_ID = "5XkqBCw0ReciXucHQAQIQjx324m1";
 
         //Replace with the BACKEND URL
-        IBConfig.BACKEND_BASE_URL = "https://ibs-dev-server.herokuapp.com";
+        IBConfig.BACKEND_BASE_URL = "https://opentokapi.fancred.org";
 
         //Setting the userName
         if((!userName.getText().toString().equals(""))) {

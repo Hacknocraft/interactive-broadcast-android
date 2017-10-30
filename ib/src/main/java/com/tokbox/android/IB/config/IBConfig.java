@@ -5,7 +5,7 @@ public class IBConfig {
     // *** Fill the following variables using your own Project info  ***
 
     // Replace with the backend URL
-    public static String BACKEND_BASE_URL = "https://ibs-dev-server.herokuapp.com";
+    public static String BACKEND_BASE_URL = "https://opentokapi.fancred.org";
 
     // Replace with the signaling URL
     public static String ADMIN_ID = "";
