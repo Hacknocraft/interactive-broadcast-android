@@ -1,4 +1,4 @@
-package com.tokbox.android.IBSample;
+package com.tokbox.android.ibsample;
 
 import org.junit.Test;
 

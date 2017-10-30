@@ -1,35 +1,27 @@
 {
   "project_info": {
-    "project_number": "33412395154",
-    "firebase_url": "https://opentok-ib.firebaseio.com",
-    "project_id": "opentok-ib",
-    "storage_bucket": "opentok-ib.appspot.com"
+    "project_number": "350004867542",
+    "firebase_url": "https://tokbox-16a39.firebaseio.com",
+    "project_id": "tokbox-16a39",
+    "storage_bucket": "tokbox-16a39.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:33412395154:android:33b19b8e957f5894",
+        "mobilesdk_app_id": "1:350004867542:android:577b262372949f41",
         "android_client_info": {
-          "package_name": "com.tokbox.android.IBSample"
+          "package_name": "com.fancred.android.ibsample"
         }
       },
       "oauth_client": [
         {
-          "client_id": "33412395154-u518jfsr797bicr7e37nb69rem3odr5h.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.tokbox.android.IBSample",
-            "certificate_hash": "045f7ab6ccfa3ef30bcba61a1a8fd8301c7a58ec"
-          }
-        },
-        {
-          "client_id": "33412395154-1jefnhie265ujnesnpho8iqjtqbugdft.apps.googleusercontent.com",
+          "client_id": "350004867542-pietejm18pints57nr58lba8cpg185b5.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC8Z-1uveV9Gxe13umSQmcxeN46riN9ONo"
+          "current_key": "AIzaSyAWgWZo4QWbAgfOvIQNDV2dIRPTUPiA2jI"
         }
       ],
       "services": {
@@ -37,20 +29,70 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "33412395154-t2nsqqku8l5scf1126mvr9a6t0ghnmqk.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.tokbox.IBSDemo"
-              }
-            },
-            {
-              "client_id": "33412395154-1jefnhie265ujnesnpho8iqjtqbugdft.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350004867542:android:090c51c1fda1bc34",
+        "android_client_info": {
+          "package_name": "com.fancred.android.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350004867542-pietejm18pints57nr58lba8cpg185b5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWgWZo4QWbAgfOvIQNDV2dIRPTUPiA2jI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350004867542:android:9327ca8e54901328",
+        "android_client_info": {
+          "package_name": "com.fancred.android.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350004867542-pietejm18pints57nr58lba8cpg185b5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWgWZo4QWbAgfOvIQNDV2dIRPTUPiA2jI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2
