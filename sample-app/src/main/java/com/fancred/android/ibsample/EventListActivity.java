@@ -141,9 +141,9 @@ public class EventListActivity extends AppCompatActivity implements WebServiceCo
         mEventList.clear();
         try {
             for (int i=0; i<mArrEvents.length(); i++) {
-                if(!mArrEvents.getJSONObject(i).getString(EventProperties.STATUS).equals(EventStatus.CLOSED)) {
+//                if(!mArrEvents.getJSONObject(i).getString(EventProperties.STATUS).equals(EventStatus.CLOSED)) {
                     mEventList.add(mArrEvents.getJSONObject(i));
-                }
+//                }
             }
         } catch(JSONException ex) {
             Log.e(LOG_TAG, ex.getMessage());

@@ -418,6 +418,9 @@ public class FanActivity extends AppCompatActivity implements WebServiceCoordina
                 public void onDataChange(DataSnapshot dataSnapshot) {
 
                     ActiveBroadcast activeBroadcast = dataSnapshot.getValue(ActiveBroadcast.class);
+                    if (activeBroadcast == null) {
+                        return;
+                    }
                     Boolean ableToJoin = activeBroadcast.getActiveFans() == null || activeBroadcast.getActiveFans().size() < activeBroadcast.getInteractiveLimit();
 
                     if(ableToJoin) {
